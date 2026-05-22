@@ -1,0 +1,9 @@
+npm init -y
+npm install express cors dotenv
+npm install --save-dev nodemon
+git init
+git remote add origin https://github.com/blccopyrigth7-creator/maholding.git
+git checkout -b backend
+git add .
+git commit -m "feat: backend initial MAHolding"
+git push -u origin backend
