@@ -1,0 +1,46 @@
+{
+  "clients": [
+    {
+      "id": "cli_001",
+      "nom": "Jean Dupont",
+      "email": "jean.dupont@example.com",
+      "adresse": "12 rue des Fleurs, 97400 Saint-Denis",
+      "telephone": "+262 692 12 34 56",
+      "siret": "12345678900012",
+      "date_creation": "2025-01-10"
+    }
+  ],
+  "factures": [
+    {
+      "id": "fac_001",
+      "numero": "FAC-2025-001",
+      "client_id": "cli_001",
+      "date_emission": "2025-02-01",
+      "date_echeance": "2025-02-15",
+      "statut": "envoyée",
+      "articles": [
+        {
+          "id": "art_001",
+          "description": "Maintenance système informatique",
+          "quantite": 2,
+          "prix_unitaire": 150,
+          "tva": 20,
+          "total": 360
+        }
+      ],
+      "total_ht": 300,
+      "total_tva": 60,
+      "total_ttc": 360,
+      "paiements": [
+        {
+          "id": "pay_001",
+          "facture_id": "fac_001",
+          "montant": 200,
+          "date_paiement": "2025-02-05",
+          "methode": "virement",
+          "reference": "VIR-XYZ-2025"
+        }
+      ]
+    }
+  ]
+}
