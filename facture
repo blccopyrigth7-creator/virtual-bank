@@ -1,0 +1,9 @@
+| Champ | Type | Description |
+| --- | --- | --- |
+| id | string | Identifiant unique |
+| nom | string | Nom du client |
+| email | string | Email |
+| adresse | string | Adresse complète |
+| telephone | string | Numéro de contact |
+| siret | string (optionnel) | Pour entreprises |
+| date_creation | date | Date d’ajout |
