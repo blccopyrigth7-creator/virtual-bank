@@ -1,0 +1,70 @@
+{
+  "invoice": {
+    "invoice_number": "BLC-HLD-2026-001",
+    "issue_date": "2026-07-21",
+    "due_date": "2026-08-21",
+    "currency": "EUR",
+    "status": "pending",
+    "seller": {
+      "company_name": "BLCCOPYRIGTH HOLDING LTD",
+      "registration_number": "XXXXXX",
+      "address": {
+        "street": "123 Street of Enterprise",
+        "city": "Fiji Islands",
+        "country": "Fiji"
+      },
+      "contact": {
+        "email": "contact@blccopyrigth.com"
+      }
+    },
+    "client": {
+      "company_name": "CLIENT_NAME",
+      "registration_number": "CLIENT_REG_NUMBER",
+      "address": {
+        "street": "CLIENT_STREET",
+        "city": "CLIENT_CITY",
+        "country": "CLIENT_COUNTRY"
+      },
+      "contact": {
+        "email": "CLIENT_EMAIL"
+      }
+    },
+    "items": [
+      {
+        "description": "Service corporate / prestation holding",
+        "quantity": 1,
+        "unit_price": 0,
+        "total": 0
+      },
+      {
+        "description": "Support administratif / gouvernance",
+        "quantity": 1,
+        "unit_price": 0,
+        "total": 0
+      }
+    ],
+    "totals": {
+      "subtotal": 0,
+      "tax": 0,
+      "tax_note": "TVA non applicable – prestation B2B internationale (directive 2006/112/CE)",
+      "total_due": 0
+    },
+    "payment": {
+      "method": "international_bank_transfer",
+      "bank": {
+        "bank_name": "BANK_NAME",
+        "iban": "IBAN_NUMBER",
+        "swift": "SWIFT_CODE",
+        "account_holder": "BLCCOPYRIGTH HOLDING LTD"
+      }
+    },
+    "legal": {
+      "notes": [
+        "Facture émise par BLCCOPYRIGTH HOLDING LTD (Ireland).",
+        "Paiement dû dans les 30 jours suivant la date d’émission.",
+        "Des frais de retard peuvent être appliqués selon les conditions générales du groupe BLCCOPYRIGTH."
+      ],
+      "signature": "Charles Baillif – Directeur"
+    }
+  }
+}
